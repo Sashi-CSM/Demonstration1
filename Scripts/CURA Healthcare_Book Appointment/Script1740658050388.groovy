@@ -52,3 +52,6 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Go 
 
 WebUI.closeBrowser()
 
+WebUI.callTestCase(findTestCase('CURA Healthcare_Book Appointment - Data Driven'), [('vUser') : findTestData(null).getValue(1, 1)
+        , ('vPassword') : findTestData(null).getValue(1, 1)], FailureHandling.STOP_ON_FAILURE)
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CURA Healthcare_Book Appointment - Data Driven</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ad57d32-055d-45b9-bd28-83cdf8772657</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3d4cb069-542f-49be-a4fb-7142de8fc543</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login Details</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>3d4cb069-542f-49be-a4fb-7142de8fc543</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>User_Name</value>
+      <variableId>8239bf84-eec9-4d35-879a-da2ecd6381f3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>3d4cb069-542f-49be-a4fb-7142de8fc543</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>1c9b1af0-9744-48fb-9dfd-0a4adbdfdac9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8239bf84-eec9-4d35-879a-da2ecd6381f3</id>
+      <masked>false</masked>
+      <name>vUser</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1c9b1af0-9744-48fb-9dfd-0a4adbdfdac9</id>
+      <masked>false</masked>
+      <name>vPassword</name>
+   </variable>
+</TestCaseEntity>

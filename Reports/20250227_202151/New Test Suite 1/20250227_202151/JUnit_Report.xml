@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite 1" time="66.224" tests="3" failures="0" errors="1">
+   <testsuite name="New Test Suite 1" tests="3" failures="0" errors="1" time="66.224" skipped="0" timestamp="27-02-2025T20:21:58" hostname="sashidharmudigonda - 192.168.1.4" id="Test Suites/New Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250227_202151/New Test Suite 1/20250227_202151"/>
+         <property name="logFiles" value="/Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250227_202151/New Test Suite 1/20250227_202151/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sashidharmudigonda - 192.168.1.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 133.0.6943.127"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="7cafd4bca3bb2170b4f377bebe2fd9a4"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CURA Healthcare_Book Appointment - Data Driven" time="8.849" classname="Test Cases/CURA Healthcare_Book Appointment - Data Driven" status="ERROR">
+         <error type="ERROR" message="Test Cases/CURA Healthcare_Book Appointment - Data Driven FAILED.&#xa;Reason:&#xa;groovy.lang.MissingPropertyException: No such property: vUser for class: Script1740662022632&#xa;	at CURA Healthcare_Book Appointment - Data Driven.run(CURA Healthcare_Book Appointment - Data Driven:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1740667911743.run(TempTestSuite1740667911743.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[27-02-2025T20:22:27 - [TEST_CASE][ERROR] - Test Cases/CURA Healthcare_Book Appointment - Data Driven: Test Cases/CURA Healthcare_Book Appointment - Data Driven FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: vUser for class: Script1740662022632
+	at CURA Healthcare_Book Appointment - Data Driven.run(CURA Healthcare_Book Appointment - Data Driven:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740667911743.run(TempTestSuite1740667911743.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+27-02-2025T20:22:27 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+27-02-2025T20:22:27 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+27-02-2025T20:22:27 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+27-02-2025T20:22:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-02-2025T20:22:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-02-2025T20:22:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-02-2025T20:22:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-02-2025T20:22:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-02-2025T20:22:29 - [TEST_STEP][PASSED] - navigateToUrl("http://demoaut.katalon.com/"): Navigate to 'http://demoaut.katalon.com/' successfully
+
+27-02-2025T20:22:35 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+27-02-2025T20:22:35 - [TEST_STEP][PASSED] - switchToWindowTitle("CURA Healthcare Service"): Switched to window with title: 'CURA Healthcare Service'
+
+27-02-2025T20:22:35 - [MESSAGE][PASSED] - Switched to window with title: 'CURA Healthcare Service'
+
+27-02-2025T20:22:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+27-02-2025T20:22:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+27-02-2025T20:22:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' are matched.
+
+27-02-2025T20:22:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' are matched.
+
+27-02-2025T20:22:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+27-02-2025T20:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+27-02-2025T20:22:36 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), vUser): Test Cases/CURA Healthcare_Book Appointment - Data Driven FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: vUser for class: Script1740662022632
+	at CURA Healthcare_Book Appointment - Data Driven.run(CURA Healthcare_Book Appointment - Data Driven:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740667911743.run(TempTestSuite1740667911743.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+27-02-2025T20:22:36 - [MESSAGE][ERROR] - Test Cases/CURA Healthcare_Book Appointment - Data Driven FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: vUser for class: Script1740662022632
+	at CURA Healthcare_Book Appointment - Data Driven.run(CURA Healthcare_Book Appointment - Data Driven:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740667911743.run(TempTestSuite1740667911743.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+27-02-2025T20:22:36 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+27-02-2025T20:22:36 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[27-02-2025T20:22:27 - [TEST_CASE][ERROR] - Test Cases/CURA Healthcare_Book Appointment - Data Driven: Test Cases/CURA Healthcare_Book Appointment - Data Driven FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: vUser for class: Script1740662022632
+	at CURA Healthcare_Book Appointment - Data Driven.run(CURA Healthcare_Book Appointment - Data Driven:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740667911743.run(TempTestSuite1740667911743.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA Healthcare_Book Appointment" time="13.853" classname="Test Cases/CURA Healthcare_Book Appointment" status="PASSED">
+         <system-out><![CDATA[27-02-2025T20:22:36 - [TEST_CASE][PASSED] - Test Cases/CURA Healthcare_Book Appointment: Test Cases/CURA Healthcare_Book Appointment
+
+27-02-2025T20:22:36 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+27-02-2025T20:22:36 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+27-02-2025T20:22:36 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+27-02-2025T20:22:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-02-2025T20:22:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+27-02-2025T20:22:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-02-2025T20:22:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-02-2025T20:22:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-02-2025T20:22:38 - [TEST_STEP][PASSED] - navigateToUrl("http://demoaut.katalon.com/"): Navigate to 'http://demoaut.katalon.com/' successfully
+
+27-02-2025T20:22:42 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+27-02-2025T20:22:42 - [TEST_STEP][PASSED] - switchToWindowTitle("CURA Healthcare Service"): Switched to window with title: 'CURA Healthcare Service'
+
+27-02-2025T20:22:43 - [MESSAGE][PASSED] - Switched to window with title: 'CURA Healthcare Service'
+
+27-02-2025T20:22:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+27-02-2025T20:22:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+27-02-2025T20:22:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' are matched.
+
+27-02-2025T20:22:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' are matched.
+
+27-02-2025T20:22:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+27-02-2025T20:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+27-02-2025T20:22:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+27-02-2025T20:22:45 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+27-02-2025T20:22:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+27-02-2025T20:22:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+27-02-2025T20:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+27-02-2025T20:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+27-02-2025T20:22:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+27-02-2025T20:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+27-02-2025T20:22:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+27-02-2025T20:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+27-02-2025T20:22:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_28")): Object: 'Object Repository/Page_CURA Healthcare Service/td_28' is clicked on
+
+27-02-2025T20:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_28' is clicked on
+
+27-02-2025T20:22:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "Book Appointment"): Text 'Book Appointment' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+27-02-2025T20:22:48 - [MESSAGE][PASSED] - Text 'Book Appointment' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+27-02-2025T20:22:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+27-02-2025T20:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+27-02-2025T20:22:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a"), "Please be informed that your appointment has been booked as following:"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a' are matched.
+
+27-02-2025T20:22:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a' are matched.
+
+27-02-2025T20:22:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+27-02-2025T20:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+27-02-2025T20:22:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-02-2025T20:22:50 - [MESSAGE][PASSED] - Browser is closed
+
+27-02-2025T20:22:50 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+27-02-2025T20:22:50 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case 1" time="14.574" classname="Test Cases/New Test Case 1" status="PASSED">
+         <system-out><![CDATA[27-02-2025T20:22:50 - [TEST_CASE][PASSED] - Test Cases/New Test Case 1: Test Cases/New Test Case 1
+
+27-02-2025T20:22:50 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+27-02-2025T20:22:50 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+27-02-2025T20:22:50 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+27-02-2025T20:22:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-02-2025T20:22:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-02-2025T20:22:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-02-2025T20:22:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-02-2025T20:22:51 - [TEST_STEP][PASSED] - navigateToUrl("http://demoaut.katalon.com/"): Navigate to 'http://demoaut.katalon.com/' successfully
+
+27-02-2025T20:22:57 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+27-02-2025T20:22:57 - [TEST_STEP][PASSED] - switchToWindowTitle("CURA Healthcare Service"): Switched to window with title: 'CURA Healthcare Service'
+
+27-02-2025T20:22:57 - [MESSAGE][PASSED] - Switched to window with title: 'CURA Healthcare Service'
+
+27-02-2025T20:22:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+27-02-2025T20:22:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+27-02-2025T20:22:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' are matched.
+
+27-02-2025T20:22:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' are matched.
+
+27-02-2025T20:22:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+27-02-2025T20:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+27-02-2025T20:22:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+27-02-2025T20:22:59 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+27-02-2025T20:22:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+27-02-2025T20:22:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+27-02-2025T20:22:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+27-02-2025T20:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+27-02-2025T20:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+27-02-2025T20:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+27-02-2025T20:23:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+27-02-2025T20:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+27-02-2025T20:23:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_6")): Object: 'Object Repository/Page_CURA Healthcare Service/td_6' is clicked on
+
+27-02-2025T20:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_6' is clicked on
+
+27-02-2025T20:23:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "book an appointment"): Text 'book an appointment' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+27-02-2025T20:23:02 - [MESSAGE][PASSED] - Text 'book an appointment' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+27-02-2025T20:23:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+27-02-2025T20:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+27-02-2025T20:23:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a")): Object: 'Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a' is clicked on
+
+27-02-2025T20:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a' is clicked on
+
+27-02-2025T20:23:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a"), "Please be informed that your appointment has been booked as following:"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a' are matched.
+
+27-02-2025T20:23:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a' are matched.
+
+27-02-2025T20:23:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+27-02-2025T20:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+27-02-2025T20:23:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-02-2025T20:23:04 - [MESSAGE][PASSED] - Browser is closed
+
+27-02-2025T20:23:04 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+27-02-2025T20:23:04 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-02-2025T20:21:58 - [TEST_SUITE][ERROR] - New Test Suite 1: Test Cases/CURA Healthcare_Book Appointment - Data Driven FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: vUser for class: Script1740662022632
+	at CURA Healthcare_Book Appointment - Data Driven.run(CURA Healthcare_Book Appointment - Data Driven:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740667911743.run(TempTestSuite1740667911743.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[27-02-2025T20:21:58 - [TEST_SUITE][ERROR] - New Test Suite 1: Test Cases/CURA Healthcare_Book Appointment - Data Driven FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: vUser for class: Script1740662022632
+	at CURA Healthcare_Book Appointment - Data Driven.run(CURA Healthcare_Book Appointment - Data Driven:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1740667911743.run(TempTestSuite1740667911743.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>
