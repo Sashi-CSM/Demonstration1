@@ -1,0 +1,7 @@
+{
+    "steps": [
+        "step 1: Navigate to */dp/*/ref=lp 10894230031 1 1 with params (pf rd p, pf rd r, sbo, th)",
+        "step 2: Click on input AddToCart -> Navigate to page 'ecommerce#cart/smart-wagon'",
+        "step 3: Take full page screenshot as checkpoint"
+    ]
+}

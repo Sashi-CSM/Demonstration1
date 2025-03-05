@@ -1,0 +1,64 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+3,Add Product to Cart from Amazon Product Page,"Navigate to a specific product page on Amazon and add the item to the cart, then verify the cart page.","Step 1: Navigate to */dp/*/ref=lp 10894230031 1 1 with params (pf rd p, pf rd r, sbo, th)
+Step 2: Click on input AddToCart -> Navigate to page 'ecommerce#cart/smart-wagon'
+Step 3: Take full page screenshot as checkpoint
+",High,NEW
+5,Add Another Product to Cart from Amazon Product Page,"Navigate to a specific product page on Amazon and add the item to the cart, then verify the cart page.","Step 1: Navigate to */dp/*/ref=sr 1 6 with params (dib, dib tag, pf rd i, pf rd m, pf rd s, qid, refinements, rnid, rps, s, sr)
+Step 2: Click on input AddToCart2 -> Navigate to page 'ecommerce#cart/smart-wagon'
+Step 3: Take full page screenshot as checkpoint
+",High,NEW
+1,Explore Best Sellers and New Releases in Various Categories on Amazon,"Navigate through Amazon's homepage to explore best sellers, new releases, and various product categories including clothing and groceries.","Step 1: Navigate to /
+Step 2: Click on link AllCategoriesMenu
+Step 3: Click on link BestSellers -> Navigate to page 'generic product listing#gp/*'
+Step 4: Click on link AmazonLaunchpad -> Navigate to page 'product listing#gp/*/*/ref=zg bs nav boost 0'
+Step 5: Click on link Collections -> Navigate to page 'product listing#gp/*/*/*/ref=zg bs nav boost 1'
+Step 6: Click on link DisruptiveInnovations -> Navigate to page 'product listing#gp/*/*/*/ref=zg bs nav boost 2 10894251031'
+Step 7: Click on link LifeHacks -> Navigate to page 'product listing#gp/*/*/*/ref=zg bs nav boost 2 14091238031'
+Step 8: Click on link FOOD -> Navigate to page 'single character path#*'
+Step 9: Click on link BestSellerGrocery
+Step 10: Click on link AllCategoriesMenu
+Step 11: Click on link NewReleases -> Navigate to page 'generic product listing#gp/*'
+Step 12: Click on link ClothingAndAccessories -> Navigate to page 'product listing#gp/*/*/ref=zg bsnr nav apparel 0'
+Step 13: Click on link Baby -> Navigate to page 'product listing#gp/*/*/*/ref=zg bsnr nav apparel 1'
+Step 14: Click on link BabyBoys -> Navigate to page 'ecommerce product listing#gp/*/*/*/ref=zg bsnr nav apparel 2 1953148031'
+Step 15: Click on link EthnicWear -> Navigate to page 'product listing#gp/*/*/*/ref=zg bsnr nav apparel 3 1953149031'
+Step 16: Click on link Pyjamas -> Navigate to page 'product listing#gp/*/*/*/ref=zg bsnr nav apparel 4 3723394031'
+Step 17: Click on link Sherwanis -> Navigate to page 'product listing#gp/*/*/*/ref=zg bsnr nav apparel 4 16085637031'
+Step 18: Click on link BestsellersInBabyBoysEthnicSherwanis -> Navigate to page 'product listing#gp/*/*/*/ref=zg bsnr tab t apparel bs'
+Step 19: Click on link QtsyDapperSherwani -> Navigate to page 'product#*/dp/*/ref=zg bs g 16085638031 d sccl 1/261-4519587-9490508'
+Step 20: Click on link AllCategoriesMenu
+Step 21: Click on link MoversAndShakers -> Navigate to page 'generic product listing#gp/*'
+Step 22: Click on link CarlingtonWatch -> Navigate to page 'product#*/dp/*/ref=zg bsms c watches d sccl 1/261-4519587-9490508'
+Step 23: Click on input Skip -> Navigate to page 'ecommerce#cart/smart-wagon'
+Step 24: Click on link AllCategoriesMenu
+Step 25: Click on link EchoAndAlexa
+Step 26: Click on link MeetName -> Navigate to page 'generic browse#gp/browse.html'
+Step 27: Click on link AmazonLogo -> Navigate to page 'navigation link#ref=nav logo'
+Step 28: Take full page screenshot as checkpoint
+",Low,NEW
+2,Browse Amazon Prime Video and Electronics Categories,"Access Amazon Prime Video offerings and explore the electronics section, specifically laptops, to find and verify products.","Step 1: Navigate to /
+Step 2: Click on link AllCategoriesMenu
+Step 3: Click on link productCategories (FireTV)
+Step 4: Click on link AmazonPrimeVideo -> Navigate to page 'single character path#*'
+Step 5: Click on link PaatalLok
+Step 6: Click on link AmazonLogo -> Navigate to page 'navigation link#ref=nav logo'
+Step 7: Click on link Electronics -> Navigate to page 'electronics category page#*/*'
+Step 8: Click on link Laptops -> Navigate to page 'ecommerce#*/ref=cepc sbc atfbau 1'
+Step 9: Click on link Lenovo -> Navigate to page 'ecommerce#cart/smart-wagon'
+Step 10: Take full page screenshot as checkpoint
+",Low,NEW
+4,Explore Clothing and Ethnic Wear Categories on Amazon,"Navigate through Amazon to explore clothing categories, including jeans and ethnic wear, and verify the homepage.","Step 1: Navigate to /
+Step 2: Click on link AllCategoriesMenu
+Step 3: Click on link productCategories (MensFashion)
+Step 4: Click on link Clothing -> Navigate to page 'generic browse#gp/browse.html'
+Step 5: Click on link Jeans -> Navigate to page 'single character path#*'
+Step 6: Click on link AmazonBrandSymbol -> Navigate to page 'single#s'
+Step 7: Click on link UrbanoPlus
+Step 8: Click on link AllCategoriesMenu
+Step 9: Click on link WomensFashion
+Step 10: Click on link Clothing -> Navigate to page 'generic browse#gp/browse.html'
+Step 11: Click on link EthnicWear -> Navigate to page 'single#s'
+Step 12: Click on link KurtasAndKurtis
+Step 13: Click on link AnarkaliDupatta -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
+",Low,NEW
