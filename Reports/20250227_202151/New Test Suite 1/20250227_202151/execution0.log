@@ -5741,10 +5741,7 @@ groovy.lang.MissingPropertyException: No such property: vUser for class: Script1
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2025-02-27T15:20:17.248298Z</date>
   <millis>1740669617248</millis>

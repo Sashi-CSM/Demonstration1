@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 2,TestCloud - Windows - Chrome 135.0.7039.0,,,04-03-2025 18:25:14,04-03-2025 18:29:25,4m - 11.073s,FAILED
+,,,,,,,
+Test Cases/New Test Case 1,TestCloud - Windows - Chrome 135.0.7039.0,,demo,04-03-2025 18:28:22,04-03-2025 18:29:25,1m - 2.799s,FAILED
+Start listener action : enableSauceLabs,TestCloud - Windows - Chrome 135.0.7039.0,,,04-03-2025 18:28:22,04-03-2025 18:28:22,0.001s,PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 135.0.7039.0,,,04-03-2025 18:28:22,04-03-2025 18:28:49,26.917s,PASSED
+"navigateToUrl(""http://demoaut.katalon.com/"")",TestCloud - Windows - Chrome 135.0.7039.0,,,04-03-2025 18:28:49,04-03-2025 18:28:53,3.490s,PASSED
+"switchToWindowTitle(""CURA Healthcare Service"")",TestCloud - Windows - Chrome 135.0.7039.0,,,04-03-2025 18:28:53,04-03-2025 18:29:25,32.373s,FAILED
+Start listener action : autoUpdateJobStatus,TestCloud - Windows - Chrome 135.0.7039.0,,,04-03-2025 18:29:25,04-03-2025 18:29:25,0.001s,PASSED

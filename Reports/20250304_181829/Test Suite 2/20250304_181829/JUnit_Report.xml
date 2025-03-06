@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 2" time="335.232" tests="1" failures="1" errors="0">
+   <testsuite name="Test Suite 2" tests="1" failures="1" errors="0" time="335.232" skipped="0" timestamp="04-03-2025T18:18:34" hostname="sashidharmudigonda - 192.168.1.8" id="Test Suites/Test Suite 2">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="MAC"/>
+         <property name="logFolder" value="/Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250304_181829/Test Suite 2/20250304_181829"/>
+         <property name="logFiles" value="/Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250304_181829/Test Suite 2/20250304_181829/execution0.log"/>
+         <property name="attachments" value="/Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250304_181829/Test Suite 2/20250304_181829/1741092582053.png, /Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250304_181829/Test Suite 2/20250304_181829/1741092583143.png, /Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250304_181829/Test Suite 2/20250304_181829/1741092649039.png, /Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250304_181829/Test Suite 2/20250304_181829/1741092650025.png, /Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250304_181829/Test Suite 2/20250304_181829/1741092748620.png, /Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250304_181829/Test Suite 2/20250304_181829/1741092749674.png, /Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250304_181829/Test Suite 2/20250304_181829/1741092847821.png, /Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250304_181829/Test Suite 2/20250304_181829/1741092848850.png"/>
+         <property name="hostName" value="sashidharmudigonda - 192.168.1.8"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="macOS"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="sessionId" value="215599cd8c8690640a8e2266e74d16a2"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;135.0.7039.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;49c047f5-3e8d-49ef-a0db-c51018510e24&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;platformName&quot;: &quot;MAC&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;135.0.7039.0 (e5ef4550f359b55da4dc06adc0ddc723f59b4ea4-refs/branch-heads/7039@{#1})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;/var/folders/sy/z10qqst9617816jbtrsfv1kc0000gp/T/.org.chromium.Chromium.fVMv6t&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;49c047f5-3e8d-49ef-a0db-c51018510e24&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;c7c42bac-6f85-475d-ab00-f4873d8ccbc8&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;49c047f5-3e8d-49ef-a0db-c51018510e24&quot;&#xa;  },&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;c7c42bac-6f85-475d-ab00-f4873d8ccbc8&quot;,&#xa;    &quot;executionMode&quot;: &quot;queue&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;49c047f5-3e8d-49ef-a0db-c51018510e24&quot;,&#xa;    &quot;group&quot;: &quot;ff429c4b-c5dd-4b14-bc35-e8cad44f5de5&quot;,&#xa;    &quot;metadata&quot;: {&#xa;      &quot;usingTunnel&quot;: false,&#xa;      &quot;accountUuid&quot;: &quot;624b61e9-ee43-4b23-8bf1-ccecb8858358&quot;,&#xa;      &quot;organizationId&quot;: &quot;1458109&quot;,&#xa;      &quot;channel&quot;: &quot;kse;v\u003d10.1.0&quot;&#xa;    },&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;tenant&quot;: &quot;TestOps&quot;,&#xa;    &quot;tunnelMetadataId&quot;: &quot;f9d68f78-9603-4c30-abb4-ca9466e3f8da&quot;,&#xa;    &quot;userId&quot;: 1489587,&#xa;    &quot;usingTunnel&quot;: true&#xa;  },&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;executionId&quot;: &quot;c7c42bac-6f85-475d-ab00-f4873d8ccbc8&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;49c047f5-3e8d-49ef-a0db-c51018510e24&quot;&#xa;}"/>
+         <property name="browser" value="Chrome 135.0.7039.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case 1" time="99.215" classname="Test Cases/New Test Case 1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/New Test Case 1 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'CURA Healthcare Service'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1859)&#xa;	at New Test Case 1.run(New Test Case 1:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1741092509627.run(TempTestSuite1741092509627.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'CURA Healthcare Service'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[04-03-2025T18:22:30 - [TEST_CASE][FAILED] - Test Cases/New Test Case 1: Test Cases/New Test Case 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1859)
+	at New Test Case 1.run(New Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1741092509627.run(TempTestSuite1741092509627.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+04-03-2025T18:22:30 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+04-03-2025T18:22:30 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: TestCloud - macOS, Chrome, version=135, Tunnel=true
+
+04-03-2025T18:22:30 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+04-03-2025T18:22:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2025T18:22:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-03-2025T18:22:31 - [MESSAGE][INFO] - User set preference: ['browserVersion', '135']
+
+04-03-2025T18:22:31 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+04-03-2025T18:22:31 - [MESSAGE][INFO] - User set preference: ['platformName', 'macos']
+
+04-03-2025T18:22:31 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=1458109, accountId=1302315, channel=kse;v=10.1.0}, tunnelId=, executionMode=queue, usingTunnel=true}']
+
+04-03-2025T18:22:31 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+04-03-2025T18:22:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2025T18:23:32 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+04-03-2025T18:23:32 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Wait functionality. Please update your browser or switch to a compatible one.
+
+04-03-2025T18:23:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2025T18:23:33 - [TEST_STEP][PASSED] - navigateToUrl("http://demoaut.katalon.com/"): Navigate to 'http://demoaut.katalon.com/' successfully
+
+04-03-2025T18:23:37 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+04-03-2025T18:23:37 - [TEST_STEP][FAILED] - switchToWindowTitle("CURA Healthcare Service"): Unable to switch to window with title: 'CURA Healthcare Service' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1859)
+	at New Test Case 1.run(New Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1741092509627.run(TempTestSuite1741092509627.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+
+04-03-2025T18:24:08 - [MESSAGE][FAILED] - Cannot find window with title: 'CURA Healthcare Service' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1859)
+	at New Test Case 1.run(New Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1741092509627.run(TempTestSuite1741092509627.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250304_181829/Test Suite 2/20250304_181829/1741092847821.png]]
+
+04-03-2025T18:24:09 - [MESSAGE][FAILED] - Unable to switch to window with title: 'CURA Healthcare Service' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1859)
+	at New Test Case 1.run(New Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1741092509627.run(TempTestSuite1741092509627.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+[[ATTACHMENT|/Users/sashidharmudigonda/Documents/Demonstration1/Reports/20250304_181829/Test Suite 2/20250304_181829/1741092848850.png]]
+
+04-03-2025T18:24:09 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: TestCloud - macOS, Chrome, version=135, Tunnel=true
+
+04-03-2025T18:24:09 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: TestCloud - macOS, Chrome, version=135, Tunnel=true]]></system-out>
+         <system-err><![CDATA[04-03-2025T18:22:30 - [TEST_CASE][FAILED] - Test Cases/New Test Case 1: Test Cases/New Test Case 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1859)
+	at New Test Case 1.run(New Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1741092509627.run(TempTestSuite1741092509627.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-03-2025T18:18:34 - [TEST_SUITE][FAILED] - Test Suite 2: Test Cases/New Test Case 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1859)
+	at New Test Case 1.run(New Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1741092509627.run(TempTestSuite1741092509627.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[04-03-2025T18:18:34 - [TEST_SUITE][FAILED] - Test Suite 2: Test Cases/New Test Case 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1859)
+	at New Test Case 1.run(New Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1741092509627.run(TempTestSuite1741092509627.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'CURA Healthcare Service'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
